@@ -113,6 +113,7 @@ port_label.pack(pady=10)
 port_entry = ttk.Entry(window, width=40)
 port_entry.pack()
 
+#Back up button
 backup_button = ttk.Button(window, text='Backup', command=execute_backup)
 backup_button.pack(pady=20)
 
